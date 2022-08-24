@@ -19,9 +19,9 @@ burgerCloseBtn.addEventListener('click', closeBurgerMenu);
 
 document.addEventListener("scroll", function () {
   if (window.pageYOffset >= 1) {
-    header.classList.add("header_fixed");
+    header.classList.add("header_second-logo");
   } else {
-    header.classList.remove("header_fixed");
+    header.classList.remove("header_second-logo");
   }
 });
 

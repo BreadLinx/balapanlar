@@ -20,7 +20,7 @@
     <header class="header">
       <div class="header__container">
         <a href="/" class="header__logo-box">
-					<div class="header__logo"></div>
+          <div class="header__logo"></div>
         </a>
         <nav class="header__nav">
           <ul class="header__nav-list">
@@ -44,9 +44,9 @@
         <a class="header__button" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" target="_blank">Записаться на курсы</a>
 				<button class="header__burger-btn"></button>
       </div>
-			<div class="burger-menu">
-				<a href="/" class="header__logo-box burger-menu__logo-box">
-					<div class="header__logo burger-menu__logo"></div>
+      <div class="burger-menu">
+        <a href="/" class="header__logo-box burger-menu__logo-box">
+          <div class="header__logo burger-menu__logo"></div>
         </a>
         <nav class="header__nav burger-menu__nav">
           <ul class="header__nav-list burger-menu__nav-list">
@@ -57,13 +57,19 @@
               <a href="#about" class="header__nav-link burger-menu__nav-link">О нас</a>
             </li>
             <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Команда</a>
+              <a href="#" class="header__nav-link burger-menu__nav-link"
+                >Команда</a
+              >
             </li>
             <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Как нас найти</a>
+              <a href="#" class="header__nav-link burger-menu__nav-link"
+                >Как нас найти</a
+              >
             </li>
             <li class="header__nav-item burger-menu__nav-item">
-              <a href="#" class="header__nav-link burger-menu__nav-link">Поддержать проект</a>
+              <a href="#" class="header__nav-link burger-menu__nav-link"
+                >Поддержать проект</a
+              >
             </li>
           </ul>
         </nav>
@@ -276,7 +282,23 @@
           </li>
         </ul>
       </section>
-      <section class="principles"></section>
+      <section class="principles">
+        <h2 class="principles__title">Наши принципы</h2>
+        <ul class="horiz-scroll">
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/actualknowledge.png')%>" alt="Актуальные знания и навыки"/>
+            <h3 class="horiz-scroll__card-title">Актуальные знания и навыки</h3>
+          </li>
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/equalaccess.png')%>" alt="Равный доступ к образованию"/>
+            <h3 class="horiz-scroll__card-title">Равный доступ к образованию</h3>
+          </li>
+          <li class="horiz-scroll__card">
+            <img class="horiz-scroll__card-image" src="<%=require('./images/investindevelopment.png')%>" alt="Инвестируем в развитие местных специалистов и экпертов"/>
+            <h3 class="horiz-scroll__card-title">Инвестируем в развитие местных специалистов и экпертов</h3>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer"></footer>
 

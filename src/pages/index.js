@@ -1,5 +1,6 @@
 import './index.css';
 import '../components/header/header.js'
+import '../components/horiz-scroll.js'
 import { Popup } from '../components/Popup/Popup.js';
 import { popupSelectorCourse, popupSelectorPartner } from '../utils/constants';
 
